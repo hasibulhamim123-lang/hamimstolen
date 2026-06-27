@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar {
+  background-color: #efefef;
+  font-size: 14px;
+  font-family: sans-serif;
+  height: 51px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menuicon {
+  padding: 15px 10px 0 15px;
+}
+#dropdownicon {
+  padding: 15px 10px 0 100px;
+}
+
+.navanchor {
+  color: black;
+  padding: 11px;
+  text-decoration: none;
+  font-size: 14px;
+}
+#contact {
+  position: absolute;
+  right: 150px;
+  color: #010f1c;
+  font-size: 15px;
+  text-decoration: none;
+}
+#number {
+  color: #031220;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+#stolenimage {
+  width: 100%;
+  height:auto ;
+  background-size: cover;
+  position: sticky;
+}
+
+#menubutton {
+  background-color: #0c55aa;
+  color: white;
+  font-size: 15px;
+  height: 50px;
+  width: 300px;
+  position: absolute;
+  margin-right: 900px;
+}
+#menubutton-content {
+  height: 250px;
+  width: 300px;
+  z-index: 999;
+  background-color: white;
+  color: black;
+  position: absolute;
+  margin: 18px 0 0 0;
+  display: none;
+}
+
+#menubutton-content li {
+  list-style: none;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+#menubutton-content a {
+  text-decoration: none;
+  color: black;
+}
+#menubutton:hover #menubutton-content {
+  display: block;
+}
+
+#menubutton:hover{background-color:black;}
+
